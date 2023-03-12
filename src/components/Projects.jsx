@@ -41,7 +41,7 @@ function Projects() {
               <h1 className="text-[#e31b6d]">React.JS/Tailwind Css</h1>
               <a
                 href="https://fur-repo.vercel.app/"
-                target="_blank"
+                target="_blank" rel={'noreferrer'}
                 className="border-2 border-solid border-[#e31b6d] px-6 p4-2 hover:bg-[#e31b6d] hover:text-[#ffffff]"
               >
                 See More
@@ -55,7 +55,7 @@ function Projects() {
               <h1 className="text-[#e31b6d]">HTML/CSS</h1>
               <a
                 href="https://devcareer-task-crypto-website.netlify.app/"
-                target="_blank"
+                target="_blank" rel={'noreferrer'}
                 className="border-2 border-solid border-[#e31b6d] px-6 p4-2 hover:bg-[#e31b6d] hover:text-[#ffffff]"
               >
                 See More
@@ -69,7 +69,7 @@ function Projects() {
               <h1 className="text-[#e31b6d]">JavaScript</h1>
               <a
                 href="https://gladys-luke.github.io/digital-clock/"
-                target="_blank"
+                target="_blank" rel={'noreferrer'}
                 className="border-2 border-solid border-[#e31b6d] px-6 p4-2 hover:bg-[#e31b6d] hover:text-[#ffffff]"
               >
                 See More

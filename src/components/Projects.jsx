@@ -29,7 +29,7 @@ function Projects() {
         data-aos="fade-up"
         className=" flex flex-col justify-center items-center"
       >
-        <div className="flex  flex-col sm:flex-row">
+        <div className="flex  flex-col sm:flex-row gap-4">
           <div class="relative">
             <img
               src={Furniture}

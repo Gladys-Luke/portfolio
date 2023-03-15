@@ -29,7 +29,7 @@ function Footer() {
           
         </div>
         <div className='flex  gap-4 justify-center'>
-            <h1>GLADYS LUKE <span className='text-[#16A596]'>©2023</span></h1>
+            <h1 className='text-[#fff]'>GLADYS LUKE <span className='text-[#16A596]'>©2023</span></h1>
         </div>
     </div>
   )

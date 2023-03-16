@@ -37,7 +37,7 @@ const Blog = ()=>{
 
   return (
       
-          <div className='' id='component3'>
+          <div className='w-full' id='component3'>
 
           <div className='flex flex-col justify-center items-center m-[5rem] text-[50px] font-bold'>
             <h1 data-aos="fade-right" className='text-[#2e304b]'>BLOG</h1>

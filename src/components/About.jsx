@@ -8,7 +8,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 function About() {
   return (
-    <div className="h-[100%] flex flex-col gap-10" id="component1">
+    <div className="h-[100%] w-full flex flex-col gap-10" id="component1">
       <div className="pb-[5rem] pt-[5rem]">
         <h1
           data-aos="fade-right"

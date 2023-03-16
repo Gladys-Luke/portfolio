@@ -16,7 +16,7 @@ function Landing() {
     });
   }, []);
   return (
-    <div id="component5" >
+    <div id="component5" className="w-full">
         <div  className="bg-[#2e304b] h-[100vh] flex flex-col gap-4  items-center justify-center">
       <div data-aos="zoom-in" className="w-[50%] text-[#ffffff] text-[20px] sm:text-[40px] flex flex-col items-center text-center">
         <h1>

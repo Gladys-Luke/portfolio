@@ -5,23 +5,23 @@ import Weather from "../Assets/Weather.png";
 
 function Projects() {
   return (
-    <div className=' flex "h-[100%] flex flex-col gap-10' id="component2">
+    <div className="h-[100%] flex flex-col" id="component2">
       <div className="pb-[5rem] pt-[5rem]">
         <h1
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          // data-aos="fade-left"
+          // data-aos-duration="1000"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
           className="flex justify-center items-center  text-[45px] text-[#2e304b] font-bold "
         >
           PROJECTS
         </h1>
         <hr
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-delay="900"
+          // data-aos="fade-left"
+          // data-aos-duration="1000"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
+          // data-aos-delay="900"
           className="w-[5rem] h-[5px] top-0 bg-[#000000] flex items-center justify-center text-center m-auto"
         />
       </div>

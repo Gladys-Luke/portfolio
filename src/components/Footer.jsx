@@ -9,10 +9,10 @@ import { Link } from "react-scroll";
 
 function Footer() {
   return (
-    <div className='flex flex-col bg-[#20262E]  gap-4 justify-center'>
-    <div className='flex justify-center'>
+    <div className='w-full flex flex-col bg-[#20262E]  gap-4 justify-center'>
+    <div className='flex justify-center '>
     <Link to="component5">
-    <RxDoubleArrowUp className='text-[#ffffff] w-[50px] h-[50px] bg-[#e31b6d] mt-[-25px] p-2'/>
+    <RxDoubleArrowUp className='text-[#ffffff] w-[50px] h-[50px] bg-[#e31b6d] mt-[-25px] p-2 sm:overflow-visible'/>
     </Link>
     </div>
         <div className='bg-[#20262E] flex  gap-4 justify-center pt-[5rem]'>

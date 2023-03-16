@@ -16,7 +16,7 @@ function Nav() {
     <nav className="bg-gray-800">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
-          <div className={(isOpen === false ? "absolute  inset-y-0 right-[0px] flex items-center sm:hidden" : "absolute  left-[320px] top-[10px] flex items-center sm:hidden")}>
+          <div className={(isOpen === false ? "absolute  inset-y-0 right-[0px] flex items-center sm:hidden" : "absolute  left-[300px] top-[10px] flex items-center sm:hidden")}>
             <button
               type="button"
               className="inline-flex items-end justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#e31b6d]"

@@ -8,101 +8,110 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 function About() {
   return (
-    <div className="h-[100%] w-full flex flex-col gap-10" id="component1">
-      <div className="pb-[5rem] pt-[5rem]">
-        <h1
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          className="flex justify-center items-center  text-[45px] text-[#2e304b] font-bold "
-        >
-          ABOUT
-        </h1>
-        <hr
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-delay="900"
-          className="w-[5rem] h-[5px] top-0 bg-[#000000] flex items-center justify-center text-center m-auto "
-        />
+    <div
+      className="h-[100%] w-full m-auto items-center justify-center self-center flex flex-col sm:flex sm:items-center sm:justify-center gap-10"
+      id="component1"
+    >
+      <div className="w-full flex flex-col items-center justify-center sm:items-stretch sm:justify-center sm:align-middle sm:m-auto">
+        <div className="pb-[5rem] pt-[5rem]" >
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="text-4xl text-center font-bold"
+          >
+            ABOUT
+          </h1>
+          <hr
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="900"
+            className="w-[5rem] h-[5px] top-0 bg-[#000000] mx-auto"
+          />
+        </div>
+        <div className="lg:mx-20 mx-5 grid grid-cols-2 sm:ml-32 sm:grid-cols-2 lg:flex gap-4 m-auto">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            className="flex flex-col items-center w-full md:w-1/2"
+          >
+            <RxTimer className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-l-lg text-[#ffffff]  shadow-xl" />
+            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+              Fast
+            </h1>
+            <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
+              Fast load times and lag free interaction, my highest priority.
+            </p>
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            className="flex flex-col items-center w-full md:w-1/2"
+          >
+            <MdOutlineImportantDevices className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-r-lg text-[#ffffff] shadow-xl" />
+            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+              Responsive
+            </h1>
+            <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
+              My layouts will work on any device, big or small.
+            </p>
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            className="flex flex-col items-center w-full md:w-1/2"
+          >
+            <HiOutlineLightBulb className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-l-lg text-[#ffffff] shadow-xl" />
+            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+              Intuitive
+            </h1>
+            <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
+              Strong preference for easy to use, intuitive UX/UI.
+            </p>
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            className="flex flex-col items-center text-center  w-full md:w-1/2"
+          >
+            <BsLightningFill className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-r-lg text-[#ffffff] shadow-xl" />
+            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+              Dynamic
+            </h1>
+            <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
+              Websites don't have to be static, I love making pages come to
+              life.
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="grid grid-cols-2 grid-rows sm:flex gap-4">
-        <div
-          data-aos="flip-right"
-          data-aos-duration="1000"
-          className="flex flex-col items-center w-full md:w-1/2"
-        >
-          <RxTimer className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-l-lg text-[#ffffff]  shadow-xl" />
-          <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
-            Fast
-          </h1>
-          <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
-            Fast load times and lag free interaction, my highest priority.
-          </p>
-        </div>
-        <div
-          data-aos="flip-right"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-          className="flex flex-col items-center w-full md:w-1/2"
-        >
-          <MdOutlineImportantDevices className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-r-lg text-[#ffffff] shadow-xl" />
-          <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
-            Responsive
-          </h1>
-          <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
-            My layouts will work on any device, big or small.
-          </p>
-        </div>
-        <div
-          data-aos="flip-right"
-          data-aos-duration="1000"
-          data-aos-delay="300"
-          className="flex flex-col items-center w-full md:w-1/2"
-        >
-          <HiOutlineLightBulb className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-l-lg text-[#ffffff] shadow-xl" />
-          <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
-            Intuitive
-          </h1>
-          <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
-            Strong preference for easy to use, intuitive UX/UI.
-          </p>
-        </div>
-        <div
-          data-aos="flip-right"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-          className="flex flex-col items-center text-center  w-full md:w-1/2"
-        >
-          <BsLightningFill className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-r-lg text-[#ffffff] shadow-xl" />
-          <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
-            Dynamic
-          </h1>
-          <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
-            Websites don't have to be static, I love making pages come to life.
-          </p>
-        </div>
-      </div>
-      <div className="w-[90%] flex flex-col sm:flex-row gap-6 justify-center pt-[100px] ">
+      {/* <div className="w-full flex flex-col sm:flex-row sm:items-center  gap-6 justify-center pt-[100px]">
         <div
           data-aos="fade-up-right"
-          className="flex flex-col text-center  items-center gap-4"
+          className="flex flex-col text-center items-center gap-4  sm:w-[50%]"
         >
           <img
             src={Profile}
             alt="profile"
-            className="w-[200px] h-[270px] rounded-full  "
+            className="w-[200px] h-[270px] rounded-full "
           />
           <h1 className="text-[20px] font-bold text-[#616161]">MEET ME!</h1>
-          <p className=" text-[#616161] w-[60%]">
+          <p className="text-[#616161] w-[60%]">
             I am an experienced Front-end Developer with a proven track record
             in creating visually engaging and user-centric web applications. I
             am a skilled problem-solver and team player. Let's discuss!
           </p>
         </div>
-        <div data-aos="fade-up-left" className="flex flex-col gap-8">
+        <div
+          data-aos="fade-up-left"
+          className="flex flex-col gap-8 md:gap-8 sm:mr-10 sm:w-[50%]"
+        >
           <div className="flex text-center items-center ">
             <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
               HTML
@@ -212,7 +221,7 @@ function About() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

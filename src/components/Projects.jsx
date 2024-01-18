@@ -19,7 +19,7 @@ function Projects() {
         data-aos="fade-up"
         className=" flex flex-col justify-center items-center"
       >
-        <div className="flex  flex-col sm:grid sm:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-14">
           <div class="relative">
             <img
               src={Emwesto}

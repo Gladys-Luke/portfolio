@@ -8,7 +8,7 @@ import NFT from "../Assets/NFT.png";
 
 function Projects() {
   return (
-    <div className="h-[100%] flex flex-col" id="component2">
+    <div className="overflow-hidden h-[80%] sm:h-[80%]  flex flex-col" id="component2">
       <div className="pb-[5rem] pt-[5rem]">
         <h1 className="flex justify-center items-center  text-[45px] text-[#2e304b] font-bold ">
           PROJECTS
@@ -19,7 +19,7 @@ function Projects() {
         data-aos="fade-up"
         className=" flex flex-col justify-center items-center"
       >
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-14">
+        <div class="grid grid-cols-1 sm:w-[80%] w-[90%] sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-14">
           <div class="relative">
             <img
               src={Emwesto}

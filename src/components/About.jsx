@@ -3,13 +3,12 @@ import { RxTimer } from "react-icons/rx";
 import { MdOutlineImportantDevices } from "react-icons/md";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { BsLightningFill } from "react-icons/bs";
-import Profile from "../Assets/profile.jpeg";
-import ProgressBar from "@ramonak/react-progress-bar";
+
 
 function About() {
   return (
     <div
-      className="h-[100%] w-full m-auto items-center justify-center self-center flex flex-col sm:flex sm:items-center sm:justify-center gap-10"
+      className=" w-full m-auto items-center justify-center self-center flex flex-col md:w-[100%] md:m-auto sm:flex sm:items-center sm:justify-center gap-10"
       id="component1"
     >
       <div className="w-full flex flex-col items-center justify-center sm:items-stretch sm:justify-center sm:align-middle sm:m-auto">
@@ -19,7 +18,7 @@ function About() {
             data-aos-duration="1000"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
-            className="text-4xl text-center font-bold"
+            className="overflow-hidden text-4xl text-center font-bold"
           >
             ABOUT
           </h1>
@@ -32,14 +31,14 @@ function About() {
             className="w-[5rem] h-[5px] top-0 bg-[#000000] mx-auto"
           />
         </div>
-        <div className="lg:mx-20 mx-5 grid grid-cols-2 sm:ml-32 sm:grid-cols-2 lg:flex gap-4 m-auto">
+        <div className="overflow-hidden md:ml-36 lg:mx-20 mx-5 grid grid-cols-2  sm:grid-cols-2 lg:flex gap-4">
           <div
             data-aos="flip-right"
             data-aos-duration="1000"
             className="flex flex-col items-center w-full md:w-1/2"
           >
             <RxTimer className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-l-lg text-[#ffffff]  shadow-xl" />
-            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+            <h1 className="font-semibold sm:text-[25px] text-[20px]  text-[#616161] pt-2">
               Fast
             </h1>
             <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
@@ -50,10 +49,10 @@ function About() {
             data-aos="flip-right"
             data-aos-duration="1000"
             data-aos-delay="200"
-            className="flex flex-col items-center w-full md:w-1/2"
+            className="flex flex-col items-center w-[100%] md:w-1/2"
           >
             <MdOutlineImportantDevices className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-r-lg text-[#ffffff] shadow-xl" />
-            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+            <h1 className="font-semibold sm:text-[25px] text-[20px] text-[#616161] pt-2">
               Responsive
             </h1>
             <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
@@ -67,7 +66,7 @@ function About() {
             className="flex flex-col items-center w-full md:w-1/2"
           >
             <HiOutlineLightBulb className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-l-lg text-[#ffffff] shadow-xl" />
-            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+            <h1 className="font-semibold sm:text-[25px] text-[20px] text-[#616161] pt-2">
               Intuitive
             </h1>
             <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
@@ -81,7 +80,7 @@ function About() {
             className="flex flex-col items-center text-center  w-full md:w-1/2"
           >
             <BsLightningFill className="bg-[#16A596] p-[25px] w-[100px] h-[100px] rounded-r-lg text-[#ffffff] shadow-xl" />
-            <h1 className="font-semibold text-[25px] text-[#616161] pt-2">
+            <h1 className="font-semibold sm:text-[25px] text-[20px] text-[#616161] pt-2">
               Dynamic
             </h1>
             <p className="text-[14px] text-center sm:text-[18px] text-[#616161]">
@@ -91,137 +90,7 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <div className="w-full flex flex-col sm:flex-row sm:items-center  gap-6 justify-center pt-[100px]">
-        <div
-          data-aos="fade-up-right"
-          className="flex flex-col text-center items-center gap-4  sm:w-[50%]"
-        >
-          <img
-            src={Profile}
-            alt="profile"
-            className="w-[200px] h-[270px] rounded-full "
-          />
-          <h1 className="text-[20px] font-bold text-[#616161]">MEET ME!</h1>
-          <p className="text-[#616161] w-[60%]">
-            I am an experienced Front-end Developer with a proven track record
-            in creating visually engaging and user-centric web applications. I
-            am a skilled problem-solver and team player. Let's discuss!
-          </p>
-        </div>
-        <div
-          data-aos="fade-up-left"
-          className="flex flex-col gap-8 md:gap-8 sm:mr-10 sm:w-[50%]"
-        >
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              HTML
-            </h6>
-            <ProgressBar
-              completed={90}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="90%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              CSS
-            </h6>
-            <ProgressBar
-              completed={90}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="90%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              TAILWIND
-            </h6>
-            <ProgressBar
-              completed={90}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="90%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              BOOTSTRAP
-            </h6>
-            <ProgressBar
-              completed={90}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="90%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              JAVASCRIPT
-            </h6>
-            <ProgressBar
-              completed={80}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="80%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              REACT
-            </h6>
-            <ProgressBar
-              completed={80}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="80%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              TYPESCRIPT
-            </h6>
-            <ProgressBar
-              completed={60}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="60%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              NEXT.JS
-            </h6>
-            <ProgressBar
-              completed={60}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="60%"
-              className="w-[500px]"
-            />
-          </div>
-          <div className="flex text-center items-center ">
-            <h6 className="bg-[#04c2c9] text-[13px]  text-[#ffffff] font-bold w-[100px]">
-              ANGULAR
-            </h6>
-            <ProgressBar
-              completed={50}
-              borderRadius="0"
-              bgColor="#16A596"
-              customLabel="50%"
-              className="w-[500px]"
-            />
-          </div>
-        </div>
-      </div> */}
+      
     </div>
   );
 }

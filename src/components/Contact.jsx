@@ -30,7 +30,7 @@ function Contact() {
           data-aos-easing="ease-in-sine" className="text-[20px] text-[#16A596] text-center">
         Have a question or want to work together?
       </h3>
-      <div data-aos="zoom-in-up" className="w-[320px]">
+      <div data-aos="zoom-in-up" className="w-[80%]">
         <form className="flex flex-col gap-1 justify-center  w-full sm:w-auto sm:m-[10px]">
           <input
             type="text"

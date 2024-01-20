@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Progess from "./components/progess";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
 
     
       <About />
+
+      <Progess />
 
       <Projects />
 
